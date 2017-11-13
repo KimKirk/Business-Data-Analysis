@@ -1,7 +1,7 @@
 # HADS-Housing-Affordability
-All files are self-contained analysis reports that include necessary variables. 
+- All files are self-contained analysis reports that include necessary variables. 
 
-Many businesses still use Excel as a primary "database"/data storage device; to accomodate this, all files are Excel based and analysis was run using Excel. 
+- Many businesses still use Excel as a primary "database"/data storage device; to accomodate this, all files are Excel based and analysis was run using Excel. 
 
 ## Processing Instructions:
 - Use Excel or application that can open .xlsx files to view the analysis report. 
@@ -21,6 +21,6 @@ Many businesses still use Excel as a primary "database"/data storage device; to 
    - Descriptive Statistics identifies and calculates descriptive statistics
    - Graphs displays histograms and boxplots
    - Test holds results for statistical tests run
-10. VALUE is numeric continuous, normally distributed. STATUS is nominal, categorical consisting of two independent groups of "occupied" and "vacant".
-11. Hypothesis tested was if there is a difference between the market VALUE for "occupied" and "vacant" STATUS. A two sample t-Test assuming unequal variances was run to determine statisical significance between group means; results are listed in the "Summary Report" worksheet.
+10. VALUE is numeric continuous, normally distributed. STATUS is categorical, nominal consisting of two independent groups of "occupied" and "vacant".
+11. Hypothesis tested: "is a difference between the market VALUE for "occupied" and "vacant" STATUS?" A two sample t-Test assuming unequal variances was run to determine statisical significance between group means; results are listed in the "Summary Report" worksheet.
 
