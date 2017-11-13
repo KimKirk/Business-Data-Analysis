@@ -17,10 +17,10 @@ Many businesses still use Excel as a primary "database"/data storage device; to 
 3. VALUE was determined to be the dependent variable, STATUS was determined to be the independent variable.
 4. VALUE variable was grouped into categories "unoccupied" and "vacant", reflecting the STATUS of each unit.
 5. Worksheets were created to hold four categories for the analysis: 
-6. Summary Report identifies and answers the business question.
-7. Descriptive Statistics identifies and calculates descriptive statistics
-8. Graphs displays histograms and boxplots
-9. Test holds results for statistical tests run
+   - Summary Report identifies and answers the business question.
+   - Descriptive Statistics identifies and calculates descriptive statistics
+   - Graphs displays histograms and boxplots
+   - Test holds results for statistical tests run
 10. VALUE is numeric continuous, normally distributed. STATUS is nominal, categorical consisting of two independent groups of "occupied" and "vacant".
 11. Hypothesis tested was if there is a difference between the market VALUE for "occupied" and "vacant" STATUS. A two sample t-Test assuming unequal variances was run to determine statisical significance between group means; results are listed in the "Summary Report" worksheet.
 
