@@ -3,7 +3,7 @@
 
 - Many businesses still use Excel as a primary "database"/data storage device; to accomodate this, all files are Excel based and analysis was run using Excel. 
 
--Market value was measured across various years to determine if there was a difference between occupied and unoccupied housing units.
+- Market value was measured across various years to determine if there was a difference between occupied and unoccupied housing units.
 
 ## Processing Instructions:
 - Use Excel or application that can open .xlsx files to view the analysis report. 
