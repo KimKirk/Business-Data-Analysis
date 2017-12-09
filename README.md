@@ -3,7 +3,7 @@
 
 - Many businesses still use Excel as a primary "database"/data storage device; to accomodate this, all files are Excel based and analysis was run using Excel. 
 
-- Market value was measured across various years to determine if there was a difference between occupied and unoccupied housing units.
+- Market value was measured across various years (2005, 2007, 2009, 2011, 2013) to determine if there was a difference between occupied and unoccupied housing units.
 
 ## Processing Instructions:
 - Use Excel or application that can open .xlsx files to view the analysis report. 
@@ -11,8 +11,8 @@
 
 ## Steps to Transformation:
 ### Data was tidied by: 
-- All data points for VALUE variable less than $1000.00 were removed per project instructions.
-- All NULL values were removed. Missing values were missing because the original data source has odd-numbered years in 1985-2009 and "selected only records representing completed interviews for occupied and vacant units, excluding usual residence elsewhere (URE) and noninterview records." per HADS documentation file. https://www.huduser.gov/portal/datasets/hads/HADS_doc.pdf
+- All data points for VALUE variable less than $1000.00 were removed per stakeholder input.
+- NULL values represented 3.9% of the data. All NULL values were removed per stakeholder input. Missing values were missing because the original data source has odd-numbered years in 1985-2009 and "selected only records representing completed interviews for occupied and vacant units, excluding usual residence elsewhere (URE) and noninterview records." per HADS documentation file. https://www.huduser.gov/portal/datasets/hads/HADS_doc.pdf
 
 1. Dataset was downloaded from host website: https://www.huduser.gov/portal/datasets/hads/hads.html
 2. VALUE and STATUS variable were used for analysis.
