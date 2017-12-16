@@ -3,7 +3,7 @@
 
 - Many businesses still use Excel as a primary "database"/data storage device; to accomodate this, all files are Excel based and analysis was run using Excel. 
 
-- Market value was measured across various years (2005, 2007, 2009, 2011, 2013) to determine if there was a difference between occupied and unoccupied housing units.
+- Inferential data analysis was conducted using "American Housing Survey: Housing Affordability" dataset from the Housing Affordability Data System in the U.S. Department of Housing and Urban Development. Market value was measured across various years (2005, 2007, 2009, 2011, 2013) to determine if there was a difference between occupied and unoccupied housing units. A two-tailed t-Test assuming unequal variances was run to determine statisical significance between group means; results are listed in the "Summary Report" worksheet in the workbook.
 
 ## Processing Instructions:
 - Use Excel or application that can open .xlsx files to view the analysis report. 
