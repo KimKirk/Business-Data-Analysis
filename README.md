@@ -11,9 +11,9 @@
 ## Steps to Transformation:
 ### Data was tidied by: 
 - All data points for VALUE variable less than $1000.00 were removed per stakeholder input.
-- NULL values represented 3.9% of the data. All NULL values were removed per stakeholder input. Missing values were missing because the original data source has odd-numbered years in 1985-2009 and "selected only records representing completed interviews for occupied and vacant units, excluding usual residence elsewhere (URE) and noninterview records." per HADS documentation file. https://www.huduser.gov/portal/datasets/hads/HADS_doc.pdf
+- NULL values represented 3.9% of the data. All NULL values were removed per stakeholder input. Missing values were missing because the original data source has odd-numbered years in 1985-2009 and "selected only records representing completed interviews for occupied and vacant units, excluding usual residence elsewhere (URE) and noninterview records." [per HADS documentation file](https://www.huduser.gov/portal/datasets/hads/HADS_doc.pdf)
 
-1. Dataset was downloaded from host website: https://www.huduser.gov/portal/datasets/hads/hads.html
+1. Dataset was downloaded from [host website](https://www.huduser.gov/portal/datasets/hads/hads.html)
 2. VALUE and STATUS variable were used for analysis.
    - VALUE is numeric continuous, normally distributed. STATUS is categorical, nominal consisting of two independent groups of "occupied" and "vacant".
 3. VALUE was determined to be the dependent variable, STATUS was determined to be the independent variable.
